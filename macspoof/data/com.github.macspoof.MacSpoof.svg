@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#62a0ea"/>
+      <stop offset="1" stop-color="#1c71d8"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#bg)"/>
+
+  <!-- Network interface card -->
+  <rect x="26" y="34" width="76" height="52" rx="7" fill="#f6f5f4" opacity="0.96"/>
+  <rect x="26" y="34" width="76" height="12" rx="6" fill="#deddda"/>
+
+  <!-- Connector / port -->
+  <rect x="38" y="52" width="26" height="20" rx="3" fill="#3d3846"/>
+  <path d="M 44 58 h 14 M 44 64 h 14" stroke="#f6f5f4" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Signal waves -->
+  <path d="M 78 56 a 12 12 0 0 1 0 14" fill="none" stroke="#1c71d8" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M 85 50 a 21 21 0 0 1 0 26" fill="none" stroke="#1c71d8" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- Cable -->
+  <path d="M 52 86 v 10 q 0 8 8 8 h 30" fill="none" stroke="#f6f5f4" stroke-width="4" stroke-linecap="round" opacity="0.75"/>
+
+  <!-- Shuffle arrows, signalling "spoof" -->
+  <path d="M 34 104 h 18 l 10 -10 M 58 104 l 10 10" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  <path d="M 46 90 l 6 4 -6 4" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+</svg>

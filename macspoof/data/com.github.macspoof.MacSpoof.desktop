@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=MAC Spoof
+GenericName=Network Interface MAC Spoofer
+Comment=Change the MAC address of a network interface
+Exec=macspoof-gui
+Icon=network-wired-symbolic
+Terminal=false
+Categories=Network;
+Keywords=mac;address;spoof;network;interface;ethernet;wifi;
+StartupNotify=true

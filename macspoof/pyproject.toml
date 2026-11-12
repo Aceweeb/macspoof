@@ -1,0 +1,24 @@
+[project]
+name = "macspoof"
+version = "1.0.0"
+description = "Spoof (change) the MAC address of a network interface on Linux and macOS"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+macspoof = "macspoof.cli:main"
+macspoof-gui = "macspoof.gui:main"
+macspoof-helper = "macspoof.helper:main"
+macspoof-install-helper = "macspoof.install_helper:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["macspoof", "macspoof.backends", "macspoof.gui"]
+
+[tool.setuptools.package-data]
+macspoof = ["../data/*"]
